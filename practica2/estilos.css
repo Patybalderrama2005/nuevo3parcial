@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Barlow', sans-serif;
+    font-size:50px ;
+}
+body{
+    background-color: #a537ee;
+}
+#imgeDog{
+    border-radius: 5px;
+}
+nav{
+    background: lightcoral;
+}
