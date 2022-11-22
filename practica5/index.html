@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap" rel="stylesheet">
+  <title>Criptomonedas</title>
+  
+  <link rel="stylesheet" href="esilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
+</head>
+
+<body onload="opcionesCriptomoneda()">
+    <center>
+      <marquee><a><h1>CRIPTOMONEDAS</h1></a>
+      </marquee>
+      <hr>
+      
+  <div class="contenedor">
+    <div class="row">
+      <div class="one-half column">
+        <center><img src="https://www.santander.com/content/dam/santander-com/es/stories/contenido-stories/2021/educacionfinanciera/im-storie-guia-para-saber-que-son-las-criptomonedas-3.jpg" width="300" height="300"> </center>
+      </div>
+      <div class="one-half column">
+        <h1 class="head">Cotizar Criptomonedas</h1>
+        <form>
+          <div id="msj-error"></div>
+          <label> ♥️Selecciona tu moneda ♥️</label>
+          <br>
+          <br>
+          <select
+          onchange="cotizarMoneda()"
+          id="moneda">
+            <option value=""> °Selecciona°  </option>
+            <option value="USD">°dolar°</option>
+            <option value="MXN">°pesos°</option>
+               <option value="EUR">°euros°</option>
+               <option value="GBP">°libra°</option>
+          </select>
+          <label> ♥️Selecciona la  criptomoneda que desees ♥️</label>
+          <br><br>
+          <select
+          onchange="cotizarMoneda()" 
+          id="criptomoneda">
+            
+          </select>
+          
+          <button type="button" class="boton" onclick="cotizarMoneda()">CALCULAR</button>
+        <br>
+        </form>
+        <div class="resultado" id="divResultado"></div>
+      </div>
+    </div>
+    
+  </div>
+  <br><br><br><br></center>
+
+  <!-- Project -->
+  <script src="app.js"></script>
+</body>
+</html>

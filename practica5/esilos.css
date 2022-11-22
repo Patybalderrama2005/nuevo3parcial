@@ -1,0 +1,90 @@
+body {
+    background: rgb(57,169,162);
+background: linear-gradient(90deg, rgba(57,169,162,1) 36%, rgba(78,151,232,1) 70%);
+
+  }
+  .error{
+    background-color: #E74C3C;
+    padding: 1rem;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  
+  .error2{
+    background-color: #641E16 ;
+    padding: 1rem;
+    color:#FFF;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Bebas neue', cursive;
+  }
+  .resultado{
+    color: rgb(0, 0, 0);
+  }
+  .resultado h2 {
+    font-weight: bold;
+    color: black;
+  }
+  .resultado p {
+    font-size: 18px!important;
+  }
+  .resultado p span {
+    font-weight: bold;
+  }
+  p.precio{
+    font-size: 30px!important;
+  }
+  
+  .boton{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #e6101a;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    color: black;
+    transition: background-color .3s ease;
+  }
+  
+  .boton:hover{
+    background-color: #e6abab;
+    cursor: pointer;
+  }
+  
+  .contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  img{
+    max-width: 100%;
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .head{
+    font-family: 'Sono', sans-serif;
+    color: black;
+    text-align:left;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+  }
+  label{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-top: 2rem;
+    display: block;
+  }
